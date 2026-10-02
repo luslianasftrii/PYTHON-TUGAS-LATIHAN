@@ -1,8 +1,9 @@
-kata = "Liana "
-# Mengulang kata 5 kali
-hasil = kata * 5
+panjang = 15
+lebar = 5
 
-print(hasil)
-# Output: Liana Liana Liana Liana Liana
-jumlah_huruf = len(kata.strip())
-print("Jumlah huruf dalam kata:",jumlah_huruf)
+luas = panjang * lebar
+keliling = 2 * (panjang + lebar)
+
+print(f"Panjang: {panjang}, Lebar: {lebar}")
+print(f"Luas Persegi Panjang: {luas}")
+print(f"Keliling Persegi Panjang: {keliling}")
